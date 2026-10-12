@@ -8,6 +8,7 @@ app = Flask(__name__)
 def hello():
     provider = str(os.environ.get('PROVIDER', 'world'))
     return 'Hello '+provider+ "! Welcome to m,y DevOps practice app."
+    return 'i am learning jenkins CI/CD'
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
